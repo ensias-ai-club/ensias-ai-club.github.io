@@ -382,7 +382,7 @@ body {
 }
 .collection-card .card-author {
   display: flex;
-  gap: 2px;
+  gap: 5px;
   font-style: italic;
 }
 .collection-card .card-author .link {
@@ -566,6 +566,10 @@ body {
   .header .logo {
     display: block;
   }
+  .header .x{
+    margin-right: 10px; 
+    margin-left: -5px;
+  }
   .hero {
     --section-padding: 240px 80px;
   }
@@ -597,6 +601,12 @@ body {
   }
   .footer-brand {
     padding-inline-end: 40px;
+  }
+}
+@media (max-width: 992px) {
+  .header .x{
+    margin-right: 5px; 
+    margin-left: -10px;
   }
 }
 @media (min-width: 992px) {
