@@ -34,8 +34,8 @@
 
   --linear-gradient-1: linear-gradient(
     to top left,
-    var(--color-2) 0%,
-    var(--color-3)
+    #161730 0%,
+    #3a1a7f
   );
   --linear-gradient-2: linear-gradient(
     to right,
