@@ -38,7 +38,7 @@
     #3a1a7f
   );
   --linear-gradient-2: linear-gradient(
-    to right,
+    to bottom,
     var(--color-9),
     var(--color-8)
   );
@@ -337,8 +337,13 @@ ion-icon {
 }
 .hero {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   --section-padding: 180px 64px;
-  text-align: center;
+  text-align: center;  
+  height: 85vh;
 }
 .hero-title span {
   display: inline;
