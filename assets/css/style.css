@@ -375,6 +375,7 @@ ion-icon {
 .top-collection .academic-year {
   margin-bottom: 20px;
   text-align: end;
+  margin-right: 10px;
 }
 .top-collection .slider {
   --slider-item: 1;
@@ -382,6 +383,7 @@ ion-icon {
   margin-inline: -8px;
   padding: 4px 12px;
   overflow-x: hidden;
+  margin-bottom: 30px;
 }
 .top-collection .slider-container {
   position: relative;
