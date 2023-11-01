@@ -366,8 +366,15 @@ ion-icon {
 .hero .btn {
   margin-inline: auto;
 }
+.top-collection {
+  margin-top: 50px;
+}
 .top-collection .title-wrapper .btn-link {
   display: none;
+}
+.top-collection .academic-year {
+  margin-bottom: 20px;
+  text-align: end;
 }
 .top-collection .slider {
   --slider-item: 1;
@@ -616,6 +623,7 @@ ion-icon {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
   }
   .top-collection .slider {
     --slider-item: 2;
@@ -642,6 +650,9 @@ ion-icon {
   .header .x{
     margin-right: 5px; 
     margin-left: -10px;
+  }
+  .top-collection {
+    margin-top: 100px;
   }
   .footer-list-title {
     text-align: center;
