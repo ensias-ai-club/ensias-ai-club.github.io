@@ -366,6 +366,31 @@ ion-icon {
 .hero .btn {
   margin-inline: auto;
 }
+
+.stats .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.stats .stat {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stats .stat .number {
+  font-weight: bold;
+  font-size: 40px;
+}
+.stats .stat .title {
+  font-size: 20px;
+  font-weight: bold;
+  opacity: .8;
+}
+
 .top-collection {
   margin-top: 50px;
 }
@@ -653,6 +678,21 @@ ion-icon {
     margin-right: 5px; 
     margin-left: -10px;
   }
+
+  .stats .container {
+    gap: 10px;
+  }
+  .stats .stat {
+    width: 150px;
+    height: 80px;
+  }
+  .stats .stat .number {
+    font-size: 35px;
+  }
+  .stats .stat .title {
+    font-size: 15px;
+  }
+
   .top-collection {
     margin-top: 100px;
   }
